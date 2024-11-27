@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FancyPrintName/FancyPrintName.iml" filepath="$PROJECT_DIR$/FancyPrintName/FancyPrintName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Incryption/Incryption.iml" filepath="$PROJECT_DIR$/Incryption/Incryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrintName/PrintName.iml" filepath="$PROJECT_DIR$/PrintName/PrintName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomNumber/RandomNumber.iml" filepath="$PROJECT_DIR$/RandomNumber/RandomNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TableManagementSystem/TableManagementSystem.iml" filepath="$PROJECT_DIR$/TableManagementSystem/TableManagementSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TableManagementSystem-using normal arrays-/TableManagementSystem-using normal arrays-.iml" filepath="$PROJECT_DIR$/TableManagementSystem-using normal arrays-/TableManagementSystem-using normal arrays-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TimeMessage/TimeMessage.iml" filepath="$PROJECT_DIR$/TimeMessage/TimeMessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/power/power.iml" filepath="$PROJECT_DIR$/power/power.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplecalculator/simplecalculator.iml" filepath="$PROJECT_DIR$/simplecalculator/simplecalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squarematrix/squarematrix.iml" filepath="$PROJECT_DIR$/squarematrix/squarematrix.iml" />
+    </modules>
+  </component>
+</project>
