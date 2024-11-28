@@ -16,7 +16,14 @@ public class Main {
             for (int j = 0; j < size; j++) {
                 System.out.print("N[" + i + "][" + j + "]= ");
                 matrix[i][j] = input.nextInt();
-                smatrix[i][j] = matrix[i][j]*matrix[i][j];
+            }
+        }
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                smatrix[i][j] = 0;
+                for (int k = 0; k < size; k++) {
+                    smatrix[i][j] += matrix[i][k] * matrix[k][j];
+                }
             }
         }
         System.out.println("The Matrix Squared is: ");
@@ -24,7 +31,6 @@ public class Main {
             System.out.print("[ ");
             for (int j = 0; j < size; j++) {
                 System.out.print(smatrix[i][j]+" ");
-                //System.out.println("M[" + i + "][" + j + "]= " + smatrix[i][j]);
             }
             System.out.println("]");
         }
