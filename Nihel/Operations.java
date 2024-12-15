@@ -1,6 +1,17 @@
 package ExTwo;
 import java.util.Scanner;
 
+/* General notes :
+
+*/
+
+/** Evaluation :
+ * 1 pt   -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL : 1+0.5+2.5+2.5 = 6.5 */
+
    public class Operations {
        public static void main(String[] args) {
            Scanner sc = new Scanner(System.in);

@@ -1,0 +1,21 @@
+*****************************************************
+*   Team Total = (33.25 + 26.5 + 39.75 )/3 = 33.166 *
+*****************************************************
+
+- files / classes names should start by upper case (Caml case)
+
+/**
+ * best practices ::
+ * the inputs with the same form (or type) should be entered by users in successive why
+ * <br>
+ * example :
+ * Enter The First Number: 4
+ * Enter The Mathematical Operation ( + | - | * | / | ^ ): +
+ * Enter The Second Number: 10
+ * 4 + 10 = 14
+ * after modification :
+ * Enter The First Number: 4
+ * Enter The Second Number: 10
+ * Enter The Mathematical Operation ( + | - | * | / | ^ ): +
+ * 4 + 10 = 14
+ * */

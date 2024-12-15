@@ -4,6 +4,15 @@ import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/* General notes :
+ */
+
+/** Evaluation :
+ * 0.75 pt -> for the solution //The reason for why u won't get full point (1pt): for using predefined methods
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 2.5 pt -> space optimization
+ * 2 pt -> speed optimization  //The reason for why u won't get full point (2.5pt): for calling the print method multiple times
+ * TOTAL : 0.75+0.5+2.5+2 = 5.75 */
 
 public class table {
     public static void main(String[] args) {

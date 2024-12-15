@@ -1,0 +1,10 @@
+Exo1 = 1 (didn't send her solution)
+Exo2 = 6.5
+Exo3 = 6.5
+Exo4 = 5.5
+
+Exo5 = 6
+Exo6 = 6
+Exo7 = -5 for not trying
+
+Total = 26.5

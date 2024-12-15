@@ -1,6 +1,18 @@
 package ExoThree;
 import java.util.Scanner;
 
+/* General notes :
+- don't over use the comments ( the comments are made to explain what's done and not how it is done )
+- u should use methods here
+*/
+
+/** Evaluation :
+ * 1 pt   -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL : 1+0.5+2.5+2.5 = 6.5 */
+
      public class matrice {
 
         public static void main(String[] args) {

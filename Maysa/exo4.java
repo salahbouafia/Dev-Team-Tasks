@@ -1,6 +1,20 @@
 //exo4
 import java.util.Scanner; 
- 
+
+
+/* General notes :
+- don't over use the comments ( the comments are made to explain what's done and not how it is done )
+- u should use methods here
+- the scanner.close() :: should be used after the input has been scanned not in the end of programme
+*/
+
+/** Evaluation :
+ * 1 pt   -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should && vars without meaning
+ * 1.5 pt -> space optimization //The reason for why u won't get full point (2.5pt): for the noted useless operation
+ * 2.5 pt -> speed optimization
+ * TOTAL : 1+0.5+1.5+2.5 = 5.5 */
+
 public class exo4 {
     public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in); 
@@ -11,11 +25,11 @@ public class exo4 {
         int[] myarray = new int[N]; 
  
         System.out.println("Enter " + N + " elements:"); 
-        for (int i = 0; i < N; i++) { 
-            myarray[i] = scanner.nextInt();  
+        for (int i = 0; i < N; i++) { // better solution instead of using N use myarray.length
+            myarray[i] = scanner.nextInt();  // user needs to know what is the chars that he is inputting
         } 
  
-        System.out.println("Press 1 to find max value, 2 to find min value, 3 to sort A to Z, 4 to sort Z to A, 5 to add an element, 6 to delete an element:"); 
+        System.out.println("Press 1 to find max value, 2 to find min value, 3 to sort A to Z, 4 to sort Z to A, 5 to add an element, 6 to delete an element:");
         int T = scanner.nextInt();  
  
         switch (T) { 
@@ -27,8 +41,8 @@ public class exo4 {
                         imax = i;  
                     } 
                 } 
-                System.out.println("Max value: " + myarray[imax]); 
-                break; 
+                System.out.println("Max value: " + myarray[imax]); // Note : well its possible to work with array elements instead of the indexes so u don't have to access the array again in this step but since accessing element in the array is O(1) operation so it's ok but things will be different in case of lists
+                break;
  
             case 2: 
                 // Find min value 
@@ -38,12 +52,12 @@ public class exo4 {
                         imin = i;  
                     } 
                 } 
-                System.out.println("Min value: " + myarray[imin]); 
+                System.out.println("Min value: " + myarray[imin]); // same note
                 break; 
  
             case 3: 
                 // Sort A to Z (ascending order) 
-                for (int i = 0; i < N - 1; i++) { 
+                for (int i = 0; i < N - 1; i++) {
                     for (int j = i + 1; j < N; j++) { 
                         if (myarray[i] > myarray[j]) { 
                             int temp = myarray[i]; 
@@ -56,7 +70,7 @@ public class exo4 {
                 for (int i = 0; i < N; i++) { 
                     System.out.print(myarray[i] + " "); 
                 } 
-                System.out.println(); 
+                System.out.println(); // nice
                 break; 
  
             case 4: 
@@ -90,7 +104,7 @@ public class exo4 {
                  
                 newArray[N] = elementToAdd; 
                 myarray = newArray; 
-                N++;  
+                N++;// useless operation
                  
                 System.out.println("New table:"); 
                 for (int i = 0; i < N; i++) { 
@@ -118,7 +132,7 @@ public class exo4 {
                  
                 if (found) { 
                     myarray = newArrayDelete; 
-                    N--; 
+                    N--;  // useless operation
                     System.out.println(" new table:"); 
                     for (int i = 0; i < N; i++) { 
                         System.out.print(myarray[i] + " "); 
