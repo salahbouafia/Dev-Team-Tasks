@@ -1,0 +1,10 @@
+Exo1 = 7.5
+Exo2 = 6.5
+Exo3 = 6.5
+Exo4 = 5.5
+Exo5 = 5.75
+Exo6 = 6.5
+Exo7 = -5 for not trying
+
+Total = 33.25
+

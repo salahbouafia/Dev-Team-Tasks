@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dev-Team-Tasks.iml" filepath="$PROJECT_DIR$/Dev-Team-Tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/Incryption/Incryption.iml" filepath="$PROJECT_DIR$/Salah/Incryption/Incryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/PrintName/PrintName.iml" filepath="$PROJECT_DIR$/Salah/PrintName/PrintName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/RandomNumber/RandomNumber.iml" filepath="$PROJECT_DIR$/Salah/RandomNumber/RandomNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/TableManagementSystem-using normal arrays-/TableManagementSystem-using normal arrays-.iml" filepath="$PROJECT_DIR$/Salah/TableManagementSystem-using normal arrays-/TableManagementSystem-using normal arrays-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/TimeMessage/TimeMessage.iml" filepath="$PROJECT_DIR$/Salah/TimeMessage/TimeMessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/simplecalculator/simplecalculator.iml" filepath="$PROJECT_DIR$/Salah/simplecalculator/simplecalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Salah/squarematrix/squarematrix.iml" filepath="$PROJECT_DIR$/Salah/squarematrix/squarematrix.iml" />
+    </modules>
+  </component>
+</project>

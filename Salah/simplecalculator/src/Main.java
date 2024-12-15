@@ -2,6 +2,17 @@ import java.lang.Math;
 import java.util.Scanner;
 
 
+/* General notes :
+- there isn't any comments ( the comments are made to explain what's done and not how it is done )
+*/
+
+/** Evaluation :
+ * 0.75pt -> for the solution //The reason for why u won't get full point (1pt): for allowing user to divide by 0
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL :  6.25 */
+
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -29,7 +40,7 @@ public class Main {
                 System.out.println(num1 + " * " + num2 + " = " + multi);
                 break;
             case "/" :
-                double div = (float) num1 / num2;
+                double div = (float) num1 / num2; //what if the num2 == 0 ??
                 System.out.println(num1 + " / " + num2 + " = " + div);
                 break;
             case "^" :
